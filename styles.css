@@ -19,6 +19,9 @@ header{
   background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
   margin-top: 0;
 }
+.intro-container{
+  margin-top: 50px;
+}
 .intro-text{
   padding-top: 50px;
 }
