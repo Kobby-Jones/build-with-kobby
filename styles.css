@@ -141,6 +141,10 @@ li .components{
   .card{
     margin-left: 40px;
   }
+  .card1:hover{
+    animation: bounces;
+    animation-delay: 1s;
+  }
   .card2{
     
     margin-top: 20px;
