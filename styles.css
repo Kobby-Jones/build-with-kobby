@@ -123,6 +123,17 @@ li .components{
    padding-top: 30px;
    padding-bottom: 30px;
 }
+
+.owl-container{
+  margin-top: 70px;
+  
+}
+
+
+.projects-card{
+  background: rgba(128, 87, 243, 0.8);
+}
+
 @media only screen and (max-width: 600px) {
   body{
     overflow-x: hidden;
@@ -178,3 +189,4 @@ li .components{
     margin-bottom: 30px;
   }
 }
+
