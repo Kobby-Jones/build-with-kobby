@@ -29,6 +29,7 @@ form.addEventListener("submit", (event) => {
   })
     .then((response) => {
       console.log("Success:", response);
+      confirm("Message sent successfully! We will get back to you within the given time")
     })
     .catch((error) => {
       console.error("Error:", error);
