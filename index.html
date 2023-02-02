@@ -58,7 +58,12 @@
 				<p class="">We build a nice looking and responsive website for your business, <br>
 				   ecommerce pages and your personal websites. <br>
 				   Grow your business and campaign all sort of your products with us.</p>
-			<div class="btn btn-danger" style="border-radius: 20px;">Contact Us Now</div>
+			
+			
+				<div class="btn btn-danger contact-us-cont" style="border-radius: 20px;">
+					<a href="#contact" class="contact-us-btn scroll-to-section">Contact Us Now</a>
+				</div>
+			
 			</div>
 		</div>
 		<!-- ***** Cards container ******* -->
@@ -300,10 +305,10 @@
                 </div>           
 		</div>
 		</div>
-		<div class="contact-us" style="background: whitesmoke; text-align: center; border-radius: 20px;width: 50%;margin-left: 25%; margin-top: 100px; height: auto; padding-bottom: 30px; padding-top: 20px; margin-bottom: 40px;" id="contact">
+		<div class="contact-us"  style="background: whitesmoke; text-align: center; border-radius: 20px;width: 50%;margin-left: 25%; margin-top: 100px; height: auto; padding-bottom: 30px; padding-top: 20px; margin-bottom: 40px;" id="contact">
 			<h2>Want to work with us?</h2>
 			<h5>Complete this form and we will get back to you in 24hrs</h5>
-			<div class="full-name">
+			<!-- <div class="full-name">
 				<label class="text-uppercase" for="full-name">full-name</label>
 				<br />
 				<input style="border-radius: 10px; width:70%;" type="text" placeholder="Full Name" />
@@ -318,7 +323,24 @@
 				<br />
 				<textarea style="border-radius: 10px; width:70%;" name="" id="" cols="80" rows="4" placeholder="Type a message..."></textarea> <br />
 			</div>
-			<button type="button" style="border-radius: 5px; margin-top: 10px; background: black; color: white;">Send Message</button>
+			<button type="button" style="border-radius: 5px; margin-top: 10px; background: black; color: white;">Send Message</button> -->
+
+			<form id="contact-form">
+  <div>
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name">
+  </div>
+  <div>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email">
+  </div>
+  <div>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+  </div>
+  <button type="submit">Send Message</button>
+</form>
+
 		</div>
 	</section>
 	<!-- *****Fourth Section Ends***** -->
@@ -328,15 +350,15 @@
 		<h2 class="keep-intouch">Lets Keep you in touch!</h2>
 		<h5 class="find-us">Find us on any of these platforms, We respond 1-2 business days</h5>
 		<div class="platforms">
-			<a class="hero-social" href="#"><i class="fab fa-twitter" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: rgb(129, 128, 207);"></i></a>
-			<a class="hero-social" href="#"><i class="fab fa-facebook" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: rgb(63, 60, 241);"></i></a>
-			<a class="hero-social" href="#"><i class="fab fa-instagram" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: black;"></i></a>
-			<a class="hero-social" href="#"><i class="fab fa-github" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: rgb(241, 60, 144);"></i></a>
+			<a class="hero-social" href="https://twitter.com" target="_blank"><i class="fab fa-twitter" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: rgb(129, 128, 207);"></i></a>
+			<a class="hero-social" href="https://facebook.com" target="_blank"><i class="fab fa-facebook" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: rgb(63, 60, 241);"></i></a>
+			<a class="hero-social" href="https://instagram.com" target="_blank"><i class="fab fa-instagram" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: black;"></i></a>
+			<a class="hero-social" href="https://github.com/Kobby-Jones" target="_blank"><i class="fab fa-github" style="border-radius: 50px;padding: 10px; font-size: 1rem; color: white; margin-right: 10px; background: rgb(241, 60, 144);"></i></a>
 		</div>
 		<div class="line">
 			<hr size="4" width="100%" color="red">
 		</div>
-		<div class="copyright">Copyright © 2022 Bootstrap Landing page created by <a style="text-decoration: none;" href="#">Build with Kobby</a></div>
+		<div class="copyright">Copyright © 2022 Bootstrap Landing page created by <a style="text-decoration: none;" href="https://github.com/Kobby-Jones">Kobby Jones</a></div>
 	</div>
 </footer>
 
